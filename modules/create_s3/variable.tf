@@ -1,4 +1,4 @@
-variable   "bucket-name" {
+variable   "bucket_name" {
     description = "bucket name that is to be used"
     type = string
     default = ""
@@ -9,4 +9,5 @@ variable "versioning_status" {
     type = string
     default = ""
   
+
 }
